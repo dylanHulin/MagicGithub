@@ -8,7 +8,7 @@ import java.util.List;
 
 public class UserRepository {
 
-    protected final ApiService apiService; // TODO: A utiliser
+    private final ApiService apiService; // TODO: A utiliser
 
     public UserRepository(ApiService apiService) {
         this.apiService = apiService;
